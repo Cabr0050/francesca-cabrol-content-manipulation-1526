@@ -1,0 +1,174 @@
+/* Colours 
+-------------------- 
+Crimson UA - #A60230
+Rosewood - #59011A
+Lavendar Blush - #F7E4E9
+White - #FFFFFF
+Black - #000000
+*/
+img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 1rem;
+}
+
+header {
+    background-color: #A60230;
+    padding: 1rem;
+
+}
+
+header nav ul li a {
+    color:#fff;
+    /* background-color: #F7E4E9; */
+    text-decoration: none;  
+    padding: .5rem 3rem;
+    border-bottom: 1px solid #fff; 
+    text-align: left;
+}
+
+header nav {
+    display: block;
+}
+
+header nav ul li {
+   margin: 1.5rem;  
+}
+
+
+body {
+    margin: 0 2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    /* color: #fff; */
+}
+
+main{
+    margin: 2rem 0;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    color: #fff; 
+    font-weight: lighter;
+    padding: 1rem 2rem; 
+    margin:0; 
+    font-size: 2.5rem;
+}
+
+h2, p{
+    color: #59011A;
+}
+
+footer p {
+    text-align: center;
+    color: #FFF;
+    margin:0;
+}
+
+.source{
+    font-weight: bold;
+}
+
+figure {
+    margin: 0; 
+}
+
+/* figure img {
+    float: left;
+    clear: left; 
+} */
+
+ul {
+    padding: 0;
+}
+
+ul li  {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.controls{
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.controls ul li button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #565656;
+    background-color: #F7E4E9;
+    border: 1px solid #dddddd; 
+    text-decoration: none;
+    margin-right: 2rem; 
+ 
+}
+
+
+ul li button:hover {
+    background-color: #ddd;
+}
+
+#active {
+    background-color: #A60230;
+    border: 1px solid #A60230; 
+    color: white;
+}
+
+footer {
+    background-color: #A60230;  
+    clear: both; 
+}
+
+.footer-menu {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 2rem;  */
+    padding-top: 1rem; 
+}
+
+footer nav ul li a {
+    color: #fff;
+    margin: 1rem; 
+}
+
+footer nav ul li a:hover {
+    color: #F7E4E9;
+}
+
+.site-info{
+    padding: 1rem; 
+    color: #FFF;
+}
+
+.site-info a{
+    color: #FFF;
+}
+
+
+/* Media Queries  */
+@media only screen and (min-width: 960px){
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        margin: 0 5rem; 
+    }
+
+    main {
+        margin: 2rem; 
+    }
+
+    img {
+        max-width: 25%; 
+        float: left;
+        clear: left; 
+        margin-right: 2rem;
+        margin-bottom: 2rem; 
+    }
+}
