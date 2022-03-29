@@ -59,6 +59,7 @@ h1 {
 h2 {
     color: #59011A;
     font-family: 'Parisienne', cursive;
+    font-weight: bold; 
 }
 
 p {
