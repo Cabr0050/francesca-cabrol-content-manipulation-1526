@@ -56,8 +56,14 @@ h1 {
     font-size: 2.5rem;
 }
 
-h2, p{
+h2 {
     color: #59011A;
+    font-family: 'Parisienne', cursive;
+}
+
+p {
+    color: #59011A;
+    font-size: .75rem;
 }
 
 footer p {
@@ -154,6 +160,10 @@ footer nav ul li a:hover {
     header nav {
         display: flex;
         justify-content: center;
+    }
+    
+    p {
+        font-size: 1rem;
     }
 
     body {
