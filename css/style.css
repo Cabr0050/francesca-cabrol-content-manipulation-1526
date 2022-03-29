@@ -60,6 +60,7 @@ h2 {
     color: #59011A;
     font-family: 'Parisienne', cursive;
     font-weight: bold; 
+    font-size: 2rem;
 }
 
 p {
@@ -161,6 +162,10 @@ footer nav ul li a:hover {
     header nav {
         display: flex;
         justify-content: center;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
     }
     
     p {
